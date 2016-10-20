@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///webpack:///src/components/Hello.vue"],"names":[],"mappings":"AACA,aACE,aAAe","file":"/static/css/app.deb0e7bb572ae339aa685604a779f904.css","sourcesContent":["\nh1[data-v-2] {\n  color: #42b983;\n}\n\n\n\n/** WEBPACK FOOTER **\n ** webpack:///src/components/Hello.vue\n **/"],"sourceRoot":""}
