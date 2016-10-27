@@ -1,15 +1,19 @@
-import VueRouter from 'vue-router'
-const subPage = {
-  template: '<router-view></router-view>'
-}
+import Vue from 'vue'
+import Router from 'vue-router'
+import Hello from 'src/components/Hello'
+import About from 'src/components/About'
 
-export default class extend VueRouter {
-  constructor (arg) {
-    super(arg) // call super() so 'this' keyword can be used
-    this.map({
-      '/': {
-        component: './pages/index.vue'
-      }
-    })
-  }
-}
+Vue.use(Router)
+
+export default new Router({
+  routes: [
+    {
+      path: '/',
+      component: Hello
+    },
+    {
+      path: '/about',
+      component: About
+    }
+  ]
+})
