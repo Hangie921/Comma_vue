@@ -19,8 +19,8 @@ module.exports = {
       'vue': 'vue/dist/vue',
       'asset': path.resolve(__dirname, '../src/assets'),
       'src': path.resolve(__dirname, '../src'),
-      'assets': path.resolve(__dirname, '../src/assets'),
-      'components': path.resolve(__dirname, '../src/components')
+      'components': path.resolve(__dirname, '../src/components'),
+      'sass' : path.resolve(__dirname, '../src/sass')
     }
   },
   resolveLoader: {

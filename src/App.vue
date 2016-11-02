@@ -1,19 +1,26 @@
 <template lang="jade">
-  .container
-    h1 hahahah
+  .app
+    app-header
+    h1.title_bar hahahah
     h2 hohohoh
     h3 This is a vuejs app
-    router-link(to="/") Home
-    router-link(to="/about") About
     router-view
 </template>
 
 <script>
+import header from 'src/components/Header'
 export default {
   components: {
+    'appHeader': header
   }
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+@import '~sass/_varaibles.scss';
+@import '~sass/_breakpoint.scss';
+@import "./main.scss";
+h1{
+  color: $pri_green;
+}
 </style>
