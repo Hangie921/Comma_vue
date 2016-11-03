@@ -2,6 +2,7 @@
   .hello
     h1 {{msg}}
     h2 {{msg}}
+    h3 {{msg}}
 </template>
 
 <script>
