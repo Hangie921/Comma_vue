@@ -14,6 +14,9 @@ npm run dev
 # build for production with minification
 npm run build
 
+# release and build for production
+npm run re-dev
+
 # run unit tests
 npm run unit
 
