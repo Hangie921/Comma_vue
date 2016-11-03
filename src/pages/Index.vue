@@ -1,7 +1,6 @@
 <template lang="jade">
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-  </div>
+  .hello
+    h1 {{msg}}
 </template>
 
 <script>
