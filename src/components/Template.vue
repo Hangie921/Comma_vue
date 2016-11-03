@@ -1,22 +1,30 @@
-<template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-  </div>
-</template>
+<template lang="jade">
 
+</template>
 <script>
 export default {
+  components: {
+  },
   data () {
     return {
-      msg: 'Hello Vue!'
+
     }
+  },
+  asyncData () {
+  },
+  computed: {
+  },
+  methods: {
+
+  }, // close methods
+  mounted () {
+  },
+  watch: {
   }
 }
 </script>
+<style lang="scss" scoped>
+@import '~sass/_varaibles.scss';
+@import '~sass/_breakpoint.scss';
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1 {
-  color: #42b983;
-}
 </style>

@@ -1,8 +1,9 @@
 <template lang="jade">
-  .app
-    app-header
-    router-view
-    app-footer
+  .container-fluid.app
+    .row
+      app-header
+      router-view
+      app-footer
 </template>
 
 <script>
@@ -23,5 +24,10 @@ export default {
 @import '~sass/_varaibles.scss';
 @import '~sass/_breakpoint.scss';
 @import "./main.scss";
-
+.header_vue, .index_vue{
+  position: relative;
+}
+.header_vue{
+  z-index: $zindex_header;
+}
 </style>

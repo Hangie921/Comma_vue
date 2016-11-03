@@ -1,25 +1,29 @@
 <template lang="jade">
-  .hello
-    h1 {{msg}}
-    h2 {{msg}}
-    h3 {{msg}}
-    h4 hahahah
-    h3 hahahah
+  .container-fluid.index_vue
+    .row
+      Banner
 </template>
 
 <script>
+import banner from 'src/components/Banner'
 export default {
+  components: {
+    'Banner': banner
+  },
   data () {
     return {
       msg: 'Index Vue!'
     }
+  },
+  mounted () {
   }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
-h1 {
-  color: #42b983;
+@import '~sass/_varaibles.scss';
+@import '~sass/_breakpoint.scss';
+.index_vue{
+  margin-top:-111px;
 }
 </style>

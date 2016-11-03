@@ -1,5 +1,5 @@
 <template lang="jade">
-  .container-fluid
+  .container-fluid.header_vue
     .row
       section.header.col-md-12
         ul
