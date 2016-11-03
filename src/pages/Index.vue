@@ -3,6 +3,7 @@
     h1 {{msg}}
     h2 {{msg}}
     h3 {{msg}}
+    h4 hahahah
 </template>
 
 <script>
