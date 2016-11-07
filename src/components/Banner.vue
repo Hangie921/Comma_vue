@@ -6,7 +6,6 @@
       v-bind:src="img"
       v-bind:data-index="$index"
       )
-    h1 {{imgs}}
 </template>
 
 <script>
@@ -104,7 +103,7 @@ h1 {
 }
 
 @keyframes zoom {
-  0%{transition: scale(1,1)}
-  100%{transition: scale(1.4,1.4)}
+  0%{transform: scale(1,1)}
+  100%{transform: scale(1.3,1.3)}
 }
 </style>
