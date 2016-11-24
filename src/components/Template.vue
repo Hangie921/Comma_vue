@@ -1,5 +1,5 @@
 <template lang="jade">
-
+  lorem1000000
 </template>
 <script>
 export default {

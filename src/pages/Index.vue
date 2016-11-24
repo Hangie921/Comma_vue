@@ -50,6 +50,7 @@ export default {
 @import '~sass/_breakpoint.scss';
 .index_vue{
   margin-top:-111px;
+  overflow-y:hidden;
 }
 // Site
 .border{

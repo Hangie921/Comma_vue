@@ -1,7 +1,7 @@
 <template lang="jade">
-  .week
+  .week.col-xd-12
     ul
-      li(v-for="(day, key) in week")
+      li.week_day_li(v-for="(day, key) in week")
         .week_day
           .weekDay
             {{key}}
@@ -66,5 +66,8 @@ export default {
 <style lang="scss" scoped>
 @import '~sass/_varaibles.scss';
 @import '~sass/_breakpoint.scss';
-
+.week_day_li{
+  float: left;
+  width:60px;
+}
 </style>

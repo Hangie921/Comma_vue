@@ -24,10 +24,14 @@ export default {
 @import '~sass/_varaibles.scss';
 @import '~sass/_breakpoint.scss';
 @import "./main.scss";
+.container-fluid{
+  overflow-x:hidden;
+}
 .header_vue, .index_vue{
   position: relative;
 }
 .header_vue{
   z-index: $zindex_header;
 }
+
 </style>
